@@ -22,64 +22,24 @@ EXCEL_FILE  = "C:\\Users\\anous\\Downloads\\NSRO-4-ASISSE_Name_Wise.xlsx"
 SHEET_NAME  = "PRAVEEN KUMAR2"
 
 EMAIL_COLUMN      = "Email"
-PDF_COLUMN        = "GSTIN"
+PDF_COLUMN        = "pdf"
 ENTERPRISE_COLUMN = "Enterprise_Name"
 
 PDF_FOLDER = r"C:\Users\anous\Downloads\Individual Notices"
 
-SENDER_EMAIL    = "praveen_155@yahoo.co.in"
-SENDER_PASSWORD = "aglbscnuzmubmcmy"
-CC_EMAIL        = "praveen.kr68@gov.in"
+SENDER_EMAIL    = ""
+SENDER_PASSWORD = ""
+CC_EMAIL        = ""
 
-EMAIL_SUBJECT = "ASISSE NOTICE 2026"
+EMAIL_SUBJECT = ""
 EMAIL_BODY    = """\
 Dear Sir/Ma'am 
 
-({company}),
-
-Greetings from the National Statistical Office (NSO), Ministry of Statistics & Programme Implementation (MoSPI).
-
-
-Please find attached the notice regarding submission of returns under the Annual Survey of Incorporated Service Sector Enterprises (ASISSE) including Trading for the Financials Year 2024-25.
-
-The ASISSE survey is an important statistical initiative undertaken by MoSPI to collect reliable and comprehensive data on the services sector including trading. The information furnished by enterprises helps in:
-
-1. Assessing the contribution of the services and trading sector to the economy,
-
-2. Formulation of evidence-based government policies,
-
-3. Estimation of Gross Domestics Products (GDP) / National Income and other macroeconomic indicators including engagement of workforce,
-
-4. Supporting planning, research, and development activities.
-
-Your cooperation in providing timely and accurate information is highly valuable and will contribute significantly to strengthening the national statistical system.
-
-The enterprise may kindly login through the following portal to file the return:
-
-https://ensd.esigma.mospi.gov.in/ASISSE/prod-survey/login
-
-
-The login credentials have been mentioned in the attached Notice under Para No. 2.
-
-You are requested to submit the return within the stipulated timeline mentioned in the notice i.e. One month w.e.f. 15.05.2026.
-
-In case of any query or assistance, kindly contact the undersigned 
-
-We look forward to your kind cooperation.
 
 
 Thanks & Regards
 
-Praveen Kumar 
-SENIOR STATISTICAL OFFICER​
-Ministry of Statistics & Programme Implementation
-National Statistics Office (Field Operations Division)
-Regional Office,4th Floor, A 2-3 Wing
-CGO Complex, CBD Belapur
-Navi Mumbai - 400614
-Phone (O) : 022-27572217
-Mob : 9868543720​​
-Alternate Email ID : praveen.kr68@gov.in
+
 """
 
 SMTP_SERVER  = "smtp.mail.yahoo.com"
@@ -175,3 +135,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+if __name__ == "__main__":
